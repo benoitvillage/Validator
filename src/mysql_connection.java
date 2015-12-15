@@ -78,7 +78,9 @@ public class mysql_connection {
 			      
 			      //We create list of high level bp
 			      if(category.equals(share_variable.highApplicationCategory)
-			    		  || name.equals(share_variable.highApplicationNameSup)){
+			    		  || name.equals(share_variable.highApplicationNameSup)
+			    		  || name.equals(share_variable.highApplicationNameSup2)
+			    		  || name.equals(share_variable.highApplicationNameSup3)){
 			      share_variable.highLvlGroupBp.add_group(my_bp);
 			      
 			      //warning

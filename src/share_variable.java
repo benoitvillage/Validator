@@ -14,6 +14,8 @@ public static int born_to = 288;
 public static group_bp highLvlGroupBp = new group_bp();
 public static String highApplicationCategory = "NA";
 public static String highApplicationNameSup = "Keycopter_portal";
+public static String highApplicationNameSup2 = "G_EPROC_PROD_EXTERNAL";
+public static String highApplicationNameSup3 = "G_EPROC_PROD_INTERNAL";
 public static int chargementId;
 public mysql_connection mycon;
 

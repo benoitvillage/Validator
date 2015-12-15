@@ -642,7 +642,10 @@ public class bp {
 		for (int i=0; i < this.validator_list.size(); i++) {
 			this.validator_list.get(i).reinit();
 		}
-		if(this.category.equals(share_variable.highApplicationCategory) || this.name.equals(share_variable.highApplicationNameSup))
+		if(this.category.equals(share_variable.highApplicationCategory) 
+				|| this.name.equals(share_variable.highApplicationNameSup)
+				|| this.name.equals(share_variable.highApplicationNameSup2)
+				|| this.name.equals(share_variable.highApplicationNameSup3))
 		{
 			
 			//we reinit the states linked to the category
